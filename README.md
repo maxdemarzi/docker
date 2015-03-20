@@ -1,5 +1,5 @@
 Unofficial Neo4j Dockerfile
-==========================+
+===========================
 
 
 ## Neo4j Community Edition 2.2.0-RC01
