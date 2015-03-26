@@ -16,11 +16,11 @@ RUN yum -y install wget tar && \
 ENV JAVA_HOME /usr/java/default
 
 # Download Neo4j 
-RUN wget http://dist.neo4j.org/neo4j-community-2.2.0-RC01-unix.tar.gz \
+RUN wget http://dist.neo4j.org/neo4j-community-2.2.0-unix.tar.gz \
          -O /opt/neo4j.tar.gz
 RUN tar -xvzf /opt/neo4j.tar.gz
 RUN rm /opt/neo4j.tar.gz
-RUN mv /neo4j-community-2.2.0-RC01/ /opt/neo4j
+RUN mv /neo4j-community-2.2.0/ /opt/neo4j
 
 # Set webserver to listen on all ips
 RUN sed -i "s|#org.neo4j.server.webserver.address=0.0.0.0|org.neo4j.server.webserver.address=0.0.0.0|g" /opt/neo4j/conf/neo4j-server.properties
