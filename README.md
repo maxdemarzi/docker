@@ -2,9 +2,9 @@ Unofficial Neo4j Dockerfile
 ===========================
 
 
-## Neo4j Community Edition 2.2.0-RC01
+## Neo4j Community Edition 2.2.0
 
-This repository contains a Docker image of the latest version release candidate (2.2.0-RC01) of the [Neo4j community server](http://www.neo4j.com/download). This Docker image of Neo4j provides instructions on how to map a Docker data volume to an already existing `data/graph.db` store file located on your host machine.
+This repository contains a Docker image of the latest version release candidate (2.2.0) of the [Neo4j community server](http://www.neo4j.com/download). This Docker image of Neo4j provides instructions on how to map a Docker data volume to an already existing `data/graph.db` store file located on your host machine.
 
 ## Build Docker Image
 
